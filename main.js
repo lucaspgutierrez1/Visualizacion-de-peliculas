@@ -12,7 +12,7 @@ class UI{
     static mostrarPeliculas(){
         const peliculas = Store.getPeliculas();
 
-        books.forEach((pelicula) => UI.agregarPeliculaALista(pelicula));
+        peliculas.forEach((pelicula) => UI.agregarPeliculaALista(pelicula));
     }
 
     static agregarPeliculaALista(pelicula){
